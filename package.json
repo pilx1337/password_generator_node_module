@@ -1,0 +1,23 @@
+{
+  "name": "@g_steiner_school/password_generator",
+  "version": "0.1.0",
+  "description": "Password Generator",
+  "keywords": [
+    "password",
+    "generator"
+  ],
+  "license": "MIT",
+  "author": "G. Steiner",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js 15 false",
+    "dev": "nodemon index.js"
+  },
+  "dependencies": {
+    "uuid": "^14.0.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.14"
+  }
+}
